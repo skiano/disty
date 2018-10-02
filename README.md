@@ -27,7 +27,3 @@ printFileStats('path/to/directory', [options]); // prints to console and returns
 - `maxDepth`: how many folders deep should it continue (0 is top level only)
 - `checkGzip`: also estimate gzip size (true by default)
 - `bytesOptions`: formatting options passed to `bytes`
-
-### TODO
-
-- setup a cli for convienience
