@@ -3,12 +3,17 @@
   "version": "1.0.0",
   "description": "Pretty print dist file sizes with only bare minimum of dependencies.",
   "main": "index.js",
+  "bin": {
+    "disty": "bin/disty.js"
+  },
   "scripts": {
     "test": "node test",
-    "prepublish": "npm test"
+    "prepublish": "npm test",
+    "disty": "node ./bin/disty --path node_modules"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "bin/disty.js"
   ],
   "repository": {
     "type": "git",
