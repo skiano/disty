@@ -15,7 +15,7 @@ $ npm i disty
 
 ### Use in package.json
 
-```
+```json
 {
   "scripts": {
     "size": "disty --path dist"
