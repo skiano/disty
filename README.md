@@ -1,8 +1,6 @@
 # disty
 Pretty print dist file sizes with only bare minimum of dependencies.
 
-```
-
 ### Why
 
 With npm audits and increasingly huge dev tools, I am starting to really want packages that have very shallow dependency trees, so this one has exactly two: `bytes` and `text-table`, which both have none.
