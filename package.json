@@ -1,0 +1,32 @@
+{
+  "name": "disty",
+  "version": "1.0.0",
+  "description": "Pretty print dist file sizes with only bare minimum of dependencies.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skiano/disty.git"
+  },
+  "keywords": [
+    "filesize",
+    "weight",
+    "dist",
+    "utility",
+    "gzip",
+    "tooling",
+    "tool"
+  ],
+  "author": "Greg Skiano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skiano/disty/issues"
+  },
+  "homepage": "https://github.com/skiano/disty#readme",
+  "dependencies": {
+    "bytes": "3.0.0",
+    "text-table": "0.2.0"
+  }
+}
