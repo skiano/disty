@@ -4,7 +4,8 @@
   "description": "Pretty print dist file sizes with only bare minimum of dependencies.",
   "main": "index.js",
   "scripts": {
-    "test": "node test"
+    "test": "node test",
+    "prepublish": "npm test"
   },
   "files": [
     "index.js"
