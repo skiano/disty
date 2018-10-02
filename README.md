@@ -7,20 +7,31 @@ With npm audits and increasingly huge dev tools, I am starting to really want pa
 
 It installs and boots fast and makes me happy :)
 
-### API
+### Installation
+
+```bash
+$ npm i disty
+```
+
+### Use in package.json
+
+```
+{
+  "scripts": {
+    "size": "disty --path dist"
+  }
+}
+```
+
+### Node API
 
 ```javascript
-const {
-  printFileStats,
-  getFormattedStats,
-  getFileStats
-} = require('disty');
-
+const { printFileStats } = require('disty');
 
 printFileStats('path/to/directory', [options]); // prints to console and returns promise
 ```
 
-*OPTIONS*
+**OPTIONS**
 
 - `filter`: function given a file path, returns true if it should be included
 - `sort`: function given two file objects that sorts them
