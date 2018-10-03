@@ -12,7 +12,7 @@ It installs and boots fast and makes me happy :)
 
 |Package|What|Why
 |:----|:---|:---|
-|[`bytes`](https://www.npmjs.com/package/text-table)| zero-dependency human readible file sizes | improves api for input/output|
+|[`bytes`](https://www.npmjs.com/package/bytes)| zero-dependency human readible file sizes | improves api for input/output|
 |[`text-table`](https://www.npmjs.com/package/text-table)| zero-dependency ascii tablualar data |better printing for output|
 
 ### Installation
