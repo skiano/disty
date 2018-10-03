@@ -1,11 +1,19 @@
 # disty
-Pretty print dist file sizes with only bare minimum of dependencies.
+
+Pretty-print dist file sizes with minimal dependencies.
 
 ### Why
 
-With npm audits and increasingly huge dev tools, I am starting to really want packages that have very shallow dependency trees, so this one has exactly two: `bytes` and `text-table`, which both have none.
+With npm audits and increasingly huge dev tools, I wanted a solution for this that requires very few other tools.
 
 It installs and boots fast and makes me happy :)
+
+### dependencies
+
+|Package|What|Why
+|:----|:---|:---|
+|[`bytes`](https://www.npmjs.com/package/text-table)| zero-dependency human readible file sizes | improves api for input/output|
+|[`text-table`](https://www.npmjs.com/package/text-table)| zero-dependency ascii tablualar data |better printing for output|
 
 ### Installation
 
