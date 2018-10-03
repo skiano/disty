@@ -2,7 +2,7 @@
 
 Pretty-print dist file sizes with minimal dependencies.
 
-### Why
+### why
 
 With npm audits and increasingly huge dev tools, I wanted a solution for this that requires very few other tools.
 
